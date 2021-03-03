@@ -21,8 +21,11 @@ class Payment {
               children: <Widget>[
                 willDisplayWidget,
                 MaterialButton(
-                  color: Colors.white30,
-                  child: Text('close alert'),
+                  color: Colors.pinkAccent,
+                  child: Text(
+                    'Pay Now',
+                    style: TextStyle(color: Colors.white, fontSize: 15.0),
+                  ),
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
